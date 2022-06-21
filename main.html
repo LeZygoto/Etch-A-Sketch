@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script defer src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <div>
+            <button id="one-color">One Color</button>
+        </div>
+        <div>
+            <button id="rainbow-style">Rainbow Style</button>
+        </div>
+        <div>
+            <input type="color"><br>Choose color
+        </div>
+        <div>
+            <button id="clear">Clear</button>
+        </div>
+        <div>
+            <div id="pixels-value">16x16 pixels</div>
+            <input type="range" id="pixels" min="8" max="64" value="16">
+        </div>
+    </div>
+    <div id="main">
+        <p id="title-p"></p>
+        <div id="container">
+
+        </div>
+    </div>
+</body>
+</html>
