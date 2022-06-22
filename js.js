@@ -1,7 +1,7 @@
 var gridSize = 16;
 let container = document.getElementById("container");
 const RANDOM = -1;
-var style = RANDOM;
+var style = document.querySelector("input[type='color']").value;
 
 container.addEventListener("mousemove", (e)=>{
     if(e.buttons == 1 && e.target.style["background-color"] == "" && e.target != container){
